@@ -1,0 +1,322 @@
+:root {
+    --color-blue:#2196F3;
+    --text-color:#212121;
+    --white-color:#ffffff;
+    --grey-color:#757575;
+    --communication-color:rgba(255, 255, 255, 0.6);
+    --feature-background-color:#F5F5F5;
+    --team-background-color:#F5F4FA;
+    --hero-background-color:#2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+
+.logo {
+    font-family: raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.logo-footer {
+    font-family: raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.web {
+    color: var(--color-blue);
+}
+
+.navigate-list {
+    list-style: none;
+}
+
+.navigate-studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.navigate-studio:active {
+    color: var(--color-blue);
+}
+
+.navigate-studio:hover,
+.navigate-studio:focus {
+    color: var(--color-blue);
+}
+
+.navigate-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.navigate-portfolio:hover,
+.navigate-portfolio:focus {
+    color: var(--color-blue);
+}
+
+.navigate-portfolio:active {
+    color: var(--color-blue);
+}
+
+.navigate-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.navigate-contacts:hover,
+.navigate-contacts:focus {
+    color: var(--color-blue);
+}
+
+.current {
+    color: var(--color-blue);
+}
+.contacts {
+    list-style: none;
+}
+
+.mail-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-blue);
+    text-decoration: none;
+}
+
+.mail-header:hover,
+.mail-header:focus {
+    color: var(--color-blue);
+}
+
+.number-header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.number-header:hover,
+.number-header:focus {
+    color: var(--color-blue);
+}
+
+.hero {
+    background: var(--hero-background-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+}
+
+.button-order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--white-color);
+    background: var(--color-blue);
+    border: none;
+    cursor: pointer;
+}
+
+.button-order:hover,
+.button-order:focus {
+    color: var(--color-blue);
+    background: var(--white-color);
+}
+
+.feature {
+    background: var(--feature-background-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.feature-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--grey-color);
+}
+
+.team {
+    background: var(--team-background-color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.card {
+    background: var(--white-color);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--grey-color);
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--communication-color);
+    background-color: var(--hero-background-color);   
+}
+
+.street {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.street:hover,
+.street:focus {
+    color: var(--color-blue);
+}
+
+.mail {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--communication-color);
+    text-decoration: none;
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--color-blue);
+}
+
+.number {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--communication-color);
+    text-decoration: none;
+}
+
+.number:hover,
+.number:focus {
+    color: var(--color-blue)
+};
+
+.filter-list {
+    list-style: none;
+}
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    background: var(--team-background-color);
+    cursor: pointer;
+}
+
+.filter-button.all {
+    color: var(--white-color);
+    background: var(--color-blue);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--white-color);
+    background: var(--color-blue);
+}
+
+.portfolio-cards {
+    list-style: none;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+    text-decoration: none;
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+
+.projects {
+    background: var(--feature-background-color);
+}
