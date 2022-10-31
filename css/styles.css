@@ -12,6 +12,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
+    line-height: 1.71;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .logo {
@@ -20,7 +23,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--text-color);
     text-decoration: none;
 }
@@ -31,7 +33,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--white-color);
     text-decoration: none;
 }
@@ -46,7 +47,6 @@ body {
 
 .navigate-studio {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
@@ -64,7 +64,6 @@ body {
 
 .navigate-portfolio {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
@@ -82,7 +81,6 @@ body {
 
 .navigate-contacts {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
@@ -103,10 +101,9 @@ body {
 
 .mail-header {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--color-blue);
+    color: var(--grey-color);
     text-decoration: none;
 }
 
@@ -117,10 +114,9 @@ body {
 
 .number-header{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    color: var(--grey-color);
     text-decoration: none;
 }
 
@@ -140,6 +136,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-color);
+    text-transform: uppercase
 }
 
 .button-order {
@@ -168,17 +165,12 @@ body {
 
 .feature-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-color);
 }
 
 .feature-text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color:var(--grey-color);
 }
 
@@ -217,18 +209,12 @@ body {
 }
 
 .address {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--communication-color);
     background-color: var(--hero-background-color);   
 }
 
 .street {
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--white-color);
     text-decoration: none;
 }
@@ -240,9 +226,6 @@ body {
 
 .mail {
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--communication-color);
     text-decoration: none;
 }
@@ -254,9 +237,6 @@ body {
 
 .number {
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--communication-color);
     text-decoration: none;
 }
@@ -275,7 +255,6 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--text-color);
     background: var(--team-background-color);
     cursor: pointer;
@@ -308,7 +287,6 @@ body {
 .card-text {
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
     color: var(--grey-color);
     text-decoration: none;
 }
